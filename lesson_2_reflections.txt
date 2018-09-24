@@ -1,0 +1,17 @@
+What happens when you initialize a repository? Why do you need to do it?
+	
+	It creates a .git file in the directory, which is basically a kind of 
+	file which enables us to make history of various versions of anything 
+	that we are working upon. So, for that reason, it is important to 
+	initialize a directory.
+
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+
+	 It acts as an intermediate between two. It stores the file ready 
+	 to be commited. It tells the git that these are the files that 
+	 you should take care of, make history of, etc. I doesn't actually 
+	 commits them. It is important as it separates the two thing and 
+	 makes easy for us to manage our files.
+
+
