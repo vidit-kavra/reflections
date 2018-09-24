@@ -49,4 +49,4 @@ Now that you have your workspace set up, what do you want to try using Git for?
     I would like to use git for managing some important competitve programming 
     algorithms files, written by me, that I could use for future refernce. But 
     primarily I would like to use it for machine learing purposes and related 
-    projects, which would eventually work like a resume for me.
+    projects, which is eventually gonna work like a resume for me.
