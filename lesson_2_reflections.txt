@@ -8,10 +8,18 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the 
 repository? What value do you think it offers?
 
-	 It acts as an intermediate between two. It stores the file ready 
-	 to be commited. It tells the git that these are the files that 
-	 you should take care of, make history of, etc. I doesn't actually 
-	 commits them. It is important as it separates the two thing and 
-	 makes easy for us to manage our files.
+	It acts as an intermediate between two. It stores the file ready 
+	to be commited. It tells the git that these are the files that 
+	you should take care of, make history of, etc. I doesn't actually 
+	commits them. It is important as it separates the two thing and 
+	makes easy for us to manage our files.
+
+How can you use the staging area to make sure you have one commit per 
+logical change?
+	
+	By making use of commands like 'git diff' (without any ids as 
+	parameters) and 'git diff --staged'. This is gonna help us make 
+	sure that we follow the "one commit per logical change" policy.
+	
 
 
