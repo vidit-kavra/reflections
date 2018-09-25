@@ -20,6 +20,40 @@ logical change?
 	By making use of commands like 'git diff' (without any ids as 
 	parameters) and 'git diff --staged'. This is gonna help us make 
 	sure that we follow the "one commit per logical change" policy.
-	
 
+What are some situations when branches would be helpful in keeping 
+your history organized? How would branches help?
 
+	Making branches for an experimental work is an excellent idea as it 
+	gives us a surity that everything is in a working state in our 
+	master branch. So even if a fatal error occurs in our experiment or 
+	we decided that we would not need that change anymore in our final 
+	production, we can just simply go back to our master branch, off course 
+	using history created by git. It gives us freedom to experiment with 
+	the new cool features.
+
+How do the diagrams help you visualize the branch structure?
+
+	Diagrams gives us a complete understanding of what different additions 
+	we have made from our master branch which is not possible with just one 
+	git command as there can be many unreachable commits from a particular 
+	branch. That won't be a problem with diagrams.
+
+What is the result of merging two branches together? Why do we represent it 
+in the diagram the way we do?
+
+	Merging two branches creats a new commit with all of the changes from both 
+	the branches in the newly created commit. Representation of it in the diagram 
+	is justified because it clearly tells us that we can get to every commit of 
+	the branches from the newly created commit which is the logical meaning of 
+	merging two branches.
+
+What are the pros and cons of Git’s automatic merging vs always doing merges 
+manually?
+
+	Well, one big advantage would be that we don't have to manually merge the code 
+	everytime we need to merge two branches in the absence of merge conflicts, 
+	git takes care of that on its own, unless in case of a merge conflict because 
+	git can't and shouldn't make a guess to decide which line to select or reject 
+	without using some complex machine learning algorithm.
+	I can't think of a disadvantage why automatic merging is not useful.
